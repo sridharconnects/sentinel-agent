@@ -1,0 +1,29 @@
+# Private settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated files
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+*.log
+
+# Mac and editor files
+.DS_Store
+.vscode/
+.idea/
